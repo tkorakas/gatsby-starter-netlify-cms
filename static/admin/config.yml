@@ -35,5 +35,5 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Link", name: "link", widget: "sring"}
+          - {label: "Link", name: "link", widget: "string"}
           - {label: Image, name: image, widget: image}
