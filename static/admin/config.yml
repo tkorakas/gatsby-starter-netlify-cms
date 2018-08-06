@@ -24,7 +24,7 @@ collections:
         name: "places"
         widget: "list"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "places-page"}
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Location", name: "location", widget: "string"}
           - {label: "Phone", name: "phone", widget: "string"}
@@ -33,7 +33,7 @@ collections:
         name: "events"
         widget: "list"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Link", name: "link", widget: "string"}
-          - {label: Image, name: image, widget: image}
+          - {label: "Image", name: "image", widget: "image"}
