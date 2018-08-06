@@ -1,5 +1,7 @@
 ---
-templateKey: 'places-page'
-path: /places
-title: Προιόντα
+templateKey: places-page
+name: Test
+location: Hello
+phone: test
 ---
+
